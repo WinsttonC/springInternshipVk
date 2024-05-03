@@ -4,7 +4,7 @@
 **Задача**: классификация текста на английском языке на спам/не спам
 
 При решении использовались:
-- Multinomial Naive Bayes + CountVectorizer - в качестве бейзлайна (0.901)
+- Multinomial Naive Bayes + CountVectorizer - в качестве бейзлайна (0.91)
 - Logistic Regression + TfIdf (0.895)
 - CatBoost + TfIdf (0.9-0.93)
 - BERT-based models + LightAutoML (0.988)
