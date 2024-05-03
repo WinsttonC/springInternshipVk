@@ -6,7 +6,7 @@
 При решении использовались:
 - Multinomial Naive Bayes + CountVectorizer - в качестве бейзлайна (0.901)
 - Logistic Regression + TfIdf (0.895)
-- CatBoost + TfIdf (0.91-0.93)
+- CatBoost + TfIdf (0.9-0.93)
 - BERT-based models + LightAutoML (0.988)
 
 Модели обучались как на исходном, так и на предобработанном тексте (токенизация, лемматизация, удаление стоп-слов).
